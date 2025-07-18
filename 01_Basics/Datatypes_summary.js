@@ -26,3 +26,27 @@ const myFunction = function(){
     
 }
 console.log(typeof BigNumber);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive ,copy), Heap (Non-Primitive),refrence
+
+let myBook = "thelaastLEsson"
+
+let newvar= myBook
+newvar= "theSevensister"
+console.log(myBook);
+console.log(newvar);
+
+let user1={
+    email:"asdff@gmail.com",
+    upi:"asdd@ypl"
+}
+ let user2 = user1;
+
+user2.email ="mnb@gmail.com"
+console.log(user1);
+console.log(user2);
+
+
