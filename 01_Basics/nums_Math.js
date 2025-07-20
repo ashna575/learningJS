@@ -26,3 +26,4 @@ console.log(Math.floor(3.6));
 
 
 console.log(Math.random());
+
