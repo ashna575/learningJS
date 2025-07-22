@@ -33,11 +33,18 @@ console.log(Object.values(customer));
 console.log(Object.entries(customer));
 //Array of Objects
 
+
+// Destructuring
+
 const course = {
     coursename :"js in hindi",
     price :"999",
     courseInstructor:"hitesh"
 }
 
-const {courseInstructor} = course
-console.log(courseInstructor);
+const {courseInstructor:instructor} = course
+console.log(instructor);
+
+
+
+
